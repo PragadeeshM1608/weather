@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #6dd5fa, #ffffff);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -10,7 +10,7 @@ body {
     padding: 40px;
     max-width: 500px;
     margin: auto;
-    background: white;
+    background: linear-gradient(to right, #6dd5fa, #ffffff);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin-top: 80px;
@@ -26,6 +26,7 @@ body {
   }
   
   button {
+    margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #0288d1;

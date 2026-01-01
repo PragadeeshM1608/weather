@@ -4,12 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Weather App (Frontend Only)</title>
-  <link rel="stylesheet" href="weather.css" />
+  <link rel="stylesheet" href="style4weather.css" />
+  <!-- <button onclick="indexpage()">Go back</button> -->
 </head>
 <body>
   <div class="container">
     <h2>🌤️ Weather Lookup</h2>
-    <input type="text" id="city" placeholder="Enter city name" />
+    <input list="cities" type="text" id="city" placeholder="Enter city name" />
+    <datalist id="cities">
+        <option value="Chennai"></option>
+        <option value="Mumbai"></option>
+        <option value="kolkata"></option>
+        <option value="Hyderabad"></option>
+        <option value="London"></option>
+        <option value="Paris"></option>
+        <option value="Tokyo"></option>
+        <option value="Sydney"></option>
+    </datalist>
     <button onclick="getWeather()">Get Weather</button>
 
     <div id="weather-result"></div>

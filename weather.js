@@ -36,3 +36,6 @@ async function getWeather() {
     document.getElementById("weather-result").textContent = "Error: " + error.message;
   }
 }
+function indexpage(){
+    window.location.href = "index.html";
+  }
